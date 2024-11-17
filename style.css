@@ -1,0 +1,54 @@
+*,
+html {
+    margin: 0 ;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(102, 61, 32);
+    
+}
+
+.countainer-navbar {
+  
+    
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.li-navbar {
+    border: 0px solid white ;
+       list-style-type: none;
+    padding: 50px;
+    color: white;
+    
+
+}
+
+.li-navbar :hover {
+background-color: gold;
+transition: .5s ease-in-out;
+transition-delay: .1s;
+border-radius: 8px;
+}
+
+.a-navbar {
+    color: rgb(242, 243, 243);
+    text-decoration: none;
+}
+
+.countainer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countainer {
+
+}
